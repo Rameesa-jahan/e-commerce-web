@@ -1,0 +1,242 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(243, 239, 239);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: fixed;
+}
+.navbar-pages{
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 15%;
+    padding: 15px;
+    font-size:larger;
+    font: bolder;
+    
+}
+.search-bar{
+   padding: 15px;
+}
+input{
+    padding: 12px 32px;
+    background-color: rgba(229, 232, 235, 0.452);
+    border: none;
+    border-radius: 5px;
+}
+.account{
+    padding:10px 30px;
+    background-color: rgb(220, 222, 224);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.account:hover{
+    background-color: green;
+    color: white;
+}
+.cart:hover{
+    background-color: green;
+    color: white;
+}
+.cart{
+    padding:10px 30px;
+    background-color: rgb(220, 222, 224);
+    border: none;
+    border-radius: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.navbar-buttons{
+    width: 25%;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.span-color{
+    color: green;
+}
+
+.adv-content{
+    display: flex;
+    background-color: rgb(230, 169, 55);
+}
+.text-adv{
+    width:50%;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: x-large;
+}
+.category{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.learn-more{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 1em;
+        cursor: pointer;
+}
+.learn-more:hover{
+    background-color: #246d27;
+}
+h5{
+    box-sizing: border-box;
+    width: 10%;
+    height: 80%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 1em;
+}
+.nav-items:hover{
+    text-decoration: underline green;
+    list-style:square;
+    color: green;
+    cursor: pointer;
+}
+.product-img{
+    width: 20%;
+    height: 30%;
+    box-sizing: border-box;
+    border: none;
+}
+.products-all{  
+        width: 250px;
+        box-sizing: border-box;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        text-align: center;
+        float: left;
+        border-radius: 20Px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 400px;
+}
+.pro-img{
+        width:200px;
+        height: 200px;
+        border-radius:10px;
+        text-align: center;
+        margin-top: 10px;
+}
+.text{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.add{
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+.add:hover{
+    
+    background-color: #246d27;
+}
+
+.cart-page{
+    width: 100%;
+}
+.cart-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    width: 80%;
+}
+button{
+    cursor: pointer;
+}
+.cart-items{
+    margin-top: 10%;
+    background-color: white;
+    width: 70%;
+}
+.shopping-cart{
+    text-align: left;
+    padding: 10px;
+    font-size: large;
+}
+.summary{
+    background-color: #b8b6b6;
+    width: 30%;
+    margin-top: 10%;
+    padding: 17px;
+}
+.head-summary{
+    text-align: left;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+}
+.text-left{
+    text-align: left;
+    color: white;   
+}
+.text-total{
+    text-align: left;
+    word-spacing: 200px;
+    color: white;
+}
+.cart-image{
+    box-sizing: border-box;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding:30px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+    
+.count-td{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline-flex;
+    padding: 44px 30px 44px 30px;
+}
+.add-less-btn{
+    border: none;
+    background-color: white;
+    padding: 30px;
+}
+.remove-btn{
+    background-color: rgb(170, 170, 170);
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.checkout{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+}
+.top{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    color: white;
+}
