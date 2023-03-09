@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Top/>
         <AuthContext.Provider
           value={{
             products: products,
